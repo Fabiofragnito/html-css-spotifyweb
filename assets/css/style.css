@@ -14,7 +14,7 @@ body{
 }
 
 #app_content{
-    width:calc(100% - 245px);
+    width:calc(100% - 200px);
     height: 100%;
     background-color: blueviolet;
     border: 1px dashed; 
@@ -32,7 +32,7 @@ body{
     
 #app_top{
     height: calc(100% - 80px);
-    width: 100%;
+    width:100vw;
     display: flex;
     border: 1px dashed;
     
@@ -53,17 +53,21 @@ body{
     border: 1px dashed;
     
     
+    
 
 }
 .row{
-    height: calc(100% - 160px);
+    /* height: calc(100% - 160px); */
+    height: 30%;
     width: 100%;
     background-color: chartreuse;
     display: flex;
-    justify-content:start;
-    flex-wrap: wrap;
+    justify-content:left;
+    flex-wrap:wrap;
     border: 1px dashed;
     gap: 5px;
+    
+    
     
     
 }
@@ -72,8 +76,9 @@ body{
     width:calc((100% / 12 * 2) - 20px);
     height: 100%;
     background-color: crimson;
-    margin: 1rem 0 1rem;
+    margin: 1rem 0.25rem 1rem;
     border: 1px dashed;
+    
     
 }
  @media screen and (max-width: 700px){
@@ -82,8 +87,9 @@ body{
         width:calc((100% / 12 * 3) - 20px);
          height: 100%;
         background-color: rgb(170, 220, 20);
-        margin: 1rem 0 1rem;
+        margin: 1rem 0.25rem 1rem;
         border: 1px dashed;
+        
 
     }
 
@@ -94,8 +100,9 @@ body{
         width:calc((100% / 12 * 6) - 20px);
          height: 100%;
         background-color: rgb(20, 70, 220);
-        margin: 1rem 0 1rem;
+        margin: 1rem 0.25rem 1rem;
         border: 1px dashed;
+        margin:auto;
 
     }
 
