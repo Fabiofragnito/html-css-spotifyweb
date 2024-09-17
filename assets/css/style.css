@@ -48,13 +48,12 @@ body{
 .row{
     height: calc(100% - 160px);
     width: 100%;
+  
     
     
 
 }
-.container{
-    display: flex;
-}
+
 .col-2{
     width: calc((100% / 12)*2);
     height: calc(100% - 160px);
