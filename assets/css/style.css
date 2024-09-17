@@ -55,13 +55,27 @@ body{
     width: 100%;
     background-color: chartreuse;
     display: flex;
-    justify-content: space-around;
+    justify-content:start;
+    flex-wrap: wrap;
+    
+    
 }
 
 .col-2{
     width: calc((100% / 12)*2);
     height: 100%;
     background-color: crimson;
-    margin: 1rem  1rem;
+    margin: 1rem 0 1rem;
     
 }
+ @media screen and (min-width: 700px){
+
+    .col-3-md{
+        width: calc((100% / 12)*3);
+         height: 100%;
+        background-color: rgb(170, 220, 20);
+        margin: 1rem 0 1rem;
+
+    }
+
+ }
