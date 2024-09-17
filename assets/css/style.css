@@ -1,13 +1,13 @@
 body{
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     overflow: hidden;
     border: 1px dashed;
 }
 
 
 #app_sidebar{
-    width: 245px;
+    width: 200px;
     height:100%;
     background-color: coral;
     border: 1px dashed;
@@ -63,12 +63,13 @@ body{
     justify-content:start;
     flex-wrap: wrap;
     border: 1px dashed;
+    gap: 5px;
     
     
 }
 
 .col-2{
-    width: calc((100% / 12)*2);
+    width:calc((100% / 12 * 2) - 20px);
     height: 100%;
     background-color: crimson;
     margin: 1rem 0 1rem;
@@ -78,7 +79,7 @@ body{
  @media screen and (max-width: 700px){
 
     .col-3-md{
-        width: calc((100% / 12)*3);
+        width:calc((100% / 12 * 3) - 20px);
          height: 100%;
         background-color: rgb(170, 220, 20);
         margin: 1rem 0 1rem;
@@ -90,7 +91,7 @@ body{
  @media screen and (max-width: 600px){
 
     .col-6-sm{
-        width: calc((100% / 12)*6);
+        width:calc((100% / 12 * 6) - 20px);
          height: 100%;
         background-color: rgb(20, 70, 220);
         margin: 1rem 0 1rem;
