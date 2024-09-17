@@ -44,18 +44,24 @@ body{
     width: 100%;
     border: 1px dashed;
 }
+.container{
+    height: calc(100% - 80px);
+    width: 100%;
+    background-color: darksalmon;
 
+}
 .row{
     height: calc(100% - 160px);
     width: 100%;
-  
-    
-    
-
+    background-color: chartreuse;
+    display: flex;
+    justify-content: space-around;
 }
 
 .col-2{
     width: calc((100% / 12)*2);
-    height: calc(100% - 160px);
-    background-color: darksalmon;
+    height: 100%;
+    background-color: crimson;
+    margin: 1rem auto 1rem;
+    
 }
