@@ -29,9 +29,9 @@ body{
         }
         ul{
             list-style-type: none;
-            /* li{
+            li{
                 margin: 0 -1rem 0;
-            } */
+            }
         }
     }
     
