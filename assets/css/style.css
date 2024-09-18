@@ -171,16 +171,19 @@ body{
     /* height: calc(100% - 160px); */
     height: 30%;
     width: 100%;
-    background-color: chartreuse;
+    
     display: flex;
     justify-content:left;
     flex-wrap:wrap;
-    border: 1px dashed;
+    
     gap: 5px;
     
     
     
     
+}
+.main-title{
+    margin-left: 1rem;
 }
 
 .col-2{
@@ -191,7 +194,16 @@ body{
     img{
         max-width: 100%;
     }
-    
+    h3{
+        color: white;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    h5{
+        color:var(--text-color);
+        text-align: center;
+        margin-top: .5rem;
+    }
     
 }
  @media screen and (max-width: 700px){
