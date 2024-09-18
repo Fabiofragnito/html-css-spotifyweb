@@ -119,6 +119,7 @@ body{
     background-color: var(--bg-header);
     border: 1px dashed;
     text-align: right;
+    margin: 0;
      a{display: inline-block;
         text-decoration: none;
         border: 1px solid white;
@@ -169,7 +170,7 @@ body{
 }
 .row{
     /* height: calc(100% - 160px); */
-    height: 30%;
+    /* height: 30%; */
     width: 100%;
     
     display: flex;
@@ -193,6 +194,7 @@ body{
     margin: 1rem 0.25rem 1rem;
     img{
         max-width: 100%;
+        
     }
     h3{
         color: white;
