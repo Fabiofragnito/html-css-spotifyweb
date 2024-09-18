@@ -16,6 +16,7 @@ body{
     --text-color:#303030;
     --bg-header:#080b12;
     --bg-content:#141922;
+    --bg-bottom:#282828;
 }
 
 #app_sidebar{
@@ -153,9 +154,24 @@ body{
 
 #app_bottom{
     height: 80px;
-    background-color: aquamarine;
+    background-color:var(--bg-bottom);
     width: 100%;
     border: 1px dashed;
+    
+    
+    .left-bottom{
+        
+        display: flex;
+        align-items: center ;
+        
+       
+       
+
+    }
+    img{
+        max-width: 5%;
+        padding: 1rem 1rem 1rem;
+    }
 }
 .container{
     height: calc(100% - 80px);
