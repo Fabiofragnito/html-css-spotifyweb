@@ -436,7 +436,7 @@ body{
     width:calc((100% / 12 * 2) - 20px);
     height: 100%;
     
-    margin: 1rem 0.25rem 1rem;
+    
     img{
         max-width: 100%;
         
@@ -475,12 +475,16 @@ body{
 
   @media screen and (max-width: 1100px){
 
+  .col-2{width:calc((100% / 12 * 2))
+
+  }
+
   }
    
  @media screen and (max-width: 700px){
 
     .col-3-md{
-        width:calc((100% / 12 * 3) - 20px);
+        width:calc((100% / 12 * 3) );
          height: 100%;
         
         
@@ -508,7 +512,7 @@ body{
  }
  @media screen and (max-width: 600px){
     .col-6-sm{
-        width:calc((100% / 12 * 6) - 20px);
+        width:calc((100% / 12 * 6) );
          height: 100%;
       
         
@@ -519,18 +523,25 @@ body{
     #app_sidebar{
         width: 50px;
         height:100%;
+        .logo{width: 300%;
+        }
+        .menu{
+           display: flex;
+           justify-content: space-around;
+        }
         
-        border: 1px dashed;
+        
 
    }
    #app_bottom{
-    /* display: none; */
+    
     height: 20px;
     .centre-bottom{display: none;}
 
    }
-   .profile, .menu, .download{
+   .profile,  .download, .playlist{
     display: none;
+   
    }
    .options{
     display: none;
