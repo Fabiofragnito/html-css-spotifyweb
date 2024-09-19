@@ -5,7 +5,7 @@
 }
 
 body{
-    height: 100vh;
+    height: 100%;
     width: 100%;
     /* overflow: hidden; */
     border: 1px dashed;
@@ -112,10 +112,11 @@ body{
 
 #app_content{
     width:calc(100% - 245px);
-    /* height: 100%; */
+    /* height:  calc(100% - 100px); */
     background-color: var(--bg-content);
     border: 1px dashed; 
     margin-left: -1rem;
+    overflow: hidden;
     
     
     
@@ -143,7 +144,7 @@ body{
 }
     
 #app_top{
-    /* height: calc(100% - 80px); */
+    /* height: calc(100% - 100px); */
     width:100%;
     display: flex;
     border: 1px dashed;
@@ -154,16 +155,21 @@ body{
 
 
 #app_bottom{
-    height: 80px;
+    height: 100px;
     background-color:var(--bg-bottom);
     width: 100%;
     border: 1px dashed;
     display: flex;
     align-items: center;
     
+    
+    
     .centre-bottom{
         display: flex;position: relative;
         margin-bottom: 3rem;
+        width: 30%;
+        margin-left: 10rem;
+        
         
        
         .fas{
@@ -179,6 +185,7 @@ body{
         align-items: center;
         position: absolute;left: -7rem;bottom: -3rem;
         color: white;
+        
         
         .bar{
             position: relative;
@@ -203,9 +210,39 @@ body{
 
         }
     }
-   
+    .right-bottom{
+       display: flex;
+       margin-left: 15rem; 
+       width: 30%;
+       text-align: right;
+       
+
+       .fas{
+        padding: 1rem 1rem 0.25rem;
+        color:white;
+        font-size: .75rem;
+    }
+    .volume-bar{
+        position: relative;
+        background-color: #333;
+        height: .5rem;
+        width: 8rem;
+        border-radius: 4px;
+        .progress-volume{
+            height: 100%;
+            width: 25%;
+            background-color: white;
+            border-radius: 4px;
+            position: absolute;top: -1rem;left: -1rem;
+
+        }
+
+    }
+
+
+    }
     .left-bottom{
-        
+        width: 30%;
         display: flex;
         align-items: center ;
 
