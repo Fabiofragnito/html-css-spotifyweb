@@ -160,6 +160,7 @@ body{
     background-color: var(--bg-header);
     border: 1px dashed;
     text-align: right;
+   
     
     .btn{
         
@@ -176,9 +177,17 @@ body{
            padding: 1rem 1rem;
        }
     }
+
+    
     
 
 }
+
+
+
+
+
+
     
 #app_top{
     height: calc(100% - 80px);
@@ -379,17 +388,21 @@ body{
     }
     .img-content{
         display: none;
+        
     }
     .album:hover .img-content{
         display: block;
     }
-    .album-image{
-        position: relative;
+    
+    .album{
+    position: relative;
     }
     .img-content{
         position: absolute;
-        /* bottom:50%;right: 0;
-        transform: translate(-50%, -50%); */
+        top:40%;left:50%;
+       
+       transform: translate(-40%, -50%);
+        
     }
     
 }
