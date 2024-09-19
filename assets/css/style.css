@@ -339,9 +339,21 @@ body{
     }
     
     
-    
 
 }
+.green{position: relative; }
+.green::after{
+        contain: "";
+        width: 20px;
+        height: 5px;
+        color: #1ed760;
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        
+
+    }
+    
 .row{
     
     width: 100%;
