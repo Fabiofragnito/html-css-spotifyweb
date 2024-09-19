@@ -44,7 +44,7 @@ body{
 
     
     
-    
+   
     .logo{
         padding: 1rem 1rem;
     }
@@ -58,16 +58,28 @@ body{
             text-decoration: none;color: var(--text);
         }
         ul{
-            list-style-type: none;
-           
-           
+            list-style-type: none;  
+        }
+        a:hover{
+            color:white;
         }
     }
     
-    
+    .menu{
+        a:hover{
+            color: white;
+        }
+    }
     
     .download{
        margin-left: .5rem;
+       a{
+        text-decoration: none;
+        color: var(--text);
+       }
+        a:hover{
+        color: white;
+    }
        
        
        
@@ -117,19 +129,28 @@ body{
         li{
            
             margin-top: 1rem;
-
+            
         }
+        li:hover{
+            
+            color: white;
+        }
+       
 
     }
     h3{
         margin-bottom: 1rem;
     }
-    strong{
+    strong:hover{
         margin-left: .5rem;
+        color: white;
     }
+    
+    
     
 
 }
+
 
 .fa-duotone {
     background-color:var(--text);
@@ -328,6 +349,7 @@ body{
     background-color: var(--bg-content);
     border: 1px dashed;
     .options{
+        position: relative;
         text-align: center;margin-top: 1rem;
         strong{
             padding: 1rem 1rem;
@@ -337,19 +359,28 @@ body{
             }
         }
     }
+    .options{
+
+        a:hover{
+            color: white;
+        }
+
+       
+    }
     
     
 
 }
 .green{position: relative; }
 .green::after{
-        contain: "";
-        width: 20px;
-        height: 5px;
-        color: #1ed760;
+        content: "";
+        display: block;
+        width: 50%;
+        height: .25rem;
+        background-color: #1ed760;
         position: absolute;
         left: 0;
-        bottom: -5px;
+        bottom: -1px;
         
 
     }
