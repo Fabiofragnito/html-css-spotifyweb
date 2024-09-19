@@ -162,16 +162,48 @@ body{
     align-items: center;
     
     .centre-bottom{
-        display: flex;
+        display: flex;position: relative;
+        margin-bottom: 3rem;
+        
+       
         .fas{
-            padding: 1rem 1rem 2rem;
+            padding: 1rem 1rem 0.25rem;
             color:white;
+            font-size: 1.5rem;
        
         }
-        
-
-
+       
     }
+    .audio-player{
+        display: flex;
+        align-items: center;
+        position: absolute;left: -7rem;bottom: -3rem;
+        color: white;
+        
+        .bar{
+            position: relative;
+            background-color: #333;
+            height: .5rem;
+            width: 25rem;
+            border-radius: 4px;
+            .progress-bar{
+                height: 100%;
+                width: 25%;
+                background-color: white;
+                border-radius: 4px;
+                position: absolute;top: -1rem;left: -1rem;
+                
+                
+            }
+            
+            
+            
+
+            
+
+        }
+    }
+   
     .left-bottom{
         
         display: flex;
