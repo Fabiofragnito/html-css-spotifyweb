@@ -496,6 +496,12 @@ body{
     #app_sidebar{
         width: 150px;
         height:100%;
+        .logo{width: 300%;
+        }
+        .menu{
+           display: flex;
+           justify-content: space-around;
+        }
         
         
 
@@ -503,10 +509,13 @@ body{
    #app_bottom{
     height: 50px;
     background-color:var(--bg-bottom);
-    width: 100%;
+    width: 100vw;
     
     display: flex;
     align-items: center;
+    .centre-bottom{
+        display: none;
+    }
 
    }
  }
