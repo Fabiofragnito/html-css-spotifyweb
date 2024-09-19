@@ -151,7 +151,9 @@ body{
 
 }
 
-
+.fa-duotone:hover{
+    color: white;
+}
 .fa-duotone {
     background-color:var(--text);
     width: 2rem;
@@ -199,6 +201,13 @@ body{
        }
     }
 
+    .btn:hover{
+        a{
+            width: 22rem;
+            height: 55px;
+        }
+    }
+
     
     
 
@@ -237,9 +246,12 @@ body{
         justify-content: right;
         margin-bottom: 3rem;
         width: 30%;
-        /* margin-left: 10rem; */
         
         
+        
+        .fas fa-play-circle:hover{
+            height: 20px;
+        }
        
         .fas{
             padding: 1rem 1rem 0.25rem;
@@ -270,17 +282,14 @@ body{
                 background-color: white;
                 border-radius: 4px;
                 position: absolute;top: 0;left: -.5rem;
-                
-                
+                display: inline-block;
+            
             }
-            
-            
-            
-
-            
 
         }
     }
+
+   
     .right-bottom{
        display: flex;
       justify-content: flex-end;
@@ -320,6 +329,18 @@ body{
         width: 30%;
         display: flex;
         align-items: center ;
+
+    div:hover{color: white;
+
+    } 
+    a{
+        text-decoration: none;
+        color: var(--text);
+     } 
+
+    a:hover{
+        color:white
+    } 
 
     strong{
         color: white;
@@ -375,12 +396,12 @@ body{
 .green::after{
         content: "";
         display: block;
-        width: 50%;
+        width: 30%;
         height: .25rem;
         background-color: #1ed760;
         position: absolute;
-        left: 0;
-        bottom: -1px;
+        left: 3rem;
+        bottom: 7px;
         
 
     }
